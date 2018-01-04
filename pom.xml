@@ -64,6 +64,7 @@
 								<zip destfile="${project.build.directory}/${project.artifactId}-${project.version}.jar"
 									 update="yes" compress="false" >
 									<zipfileset dir="." includes="multi-buildpack.yml" />
+									<zipfileset dir="." includes="requirements.txt" />
 								</zip>
 							</target>
 						</configuration>
